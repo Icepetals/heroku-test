@@ -1,0 +1,27 @@
+.navbar-nav{
+    margin: 0 auto;
+}
+
+.navbar-nav li{
+    margin: 0 30px;
+}
+
+.searchbar {
+    position: absolute;
+    right: 130px;
+}
+
+.searchbtn{
+    position: absolute;
+    right: 50px;
+}
+
+.btn{
+    border-color: white;
+    background-color: rgb(199, 156, 40);
+}
+
+#images{
+    margin-top: 50px;
+}
+
