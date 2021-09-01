@@ -22,6 +22,4 @@ describe('PHomeComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-
-  
 });
