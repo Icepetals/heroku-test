@@ -2,18 +2,53 @@
     margin: 0 auto;
 }
 
-.navbar-nav li{
-    margin: 0 30px;
+ul.navbar-nav{
+    min-width: 696px;
+	list-style: none;
+	padding-top: auto;
+}
+li.nav-item{
+    display: inline;
+    
 }
 
-.searchbar {
-    position: absolute;
-    right: 130px;
+#search-container{
+    margin-left: auto; 
+    margin-right: 0;
 }
 
-.searchbtn{
-    position: absolute;
-    right: 50px;
+ul#search-list{
+    margin-top:20px;
+    display: flex;    
+}
+
+ul#search-list li{
+    list-style: none;
+    padding-right: 5px;
+}
+
+#nav-container{
+    margin-left: auto;
+    margin-right: auto
+}
+
+ul#navmenu-list a:hover{
+    color: #c69f73;
+}
+
+ul#navmenu-list a{
+    color: black;
+}
+
+ul#navmenu-list{  
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul#navmenu-list li{
+    display: inline-block;
+    margin: 0 5em;
 }
 
 .btn{
